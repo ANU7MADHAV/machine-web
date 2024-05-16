@@ -4,10 +4,10 @@ import about2 from "@/public/about-us2.jpeg";
 
 const FirstSection = () => {
   return (
-    <div className="my-6 px-3">
+    <div className="my-6 px-5">
       <div>
         <section>
-          <h2 className="font-semibold my-3 text-xl">About us</h2>
+          <h2 className="font-semibold my-3 text-center text-xl">About us</h2>
           <p className="font-serif text-sm my-3">
             Welcome to Phoenix Packaging Solutions, your trusted partner in the
             world of packaging solutions. Situated at Door No: 13/183 A, Opp.
@@ -20,7 +20,7 @@ const FirstSection = () => {
       </div>
       <div>
         <section className="my-3">
-          <h2 className="font-semibold my-3 text-xl">Our Story</h2>
+          <h2 className="font-semibold my-3 text-center text-xl">Our Story</h2>
           <p className="font-serif text-sm my-3">
             Phoenix Packaging Solutions is the brainchild of Mr. Bhagyesh, a
             seasoned entrepreneur with a passion for delivering excellence in

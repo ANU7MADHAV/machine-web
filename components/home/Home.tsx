@@ -10,7 +10,7 @@ const Home = () => {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
-      <FourthSection />
+
       <EnquiryForm />
     </div>
   );
