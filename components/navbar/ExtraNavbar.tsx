@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FiPhone } from "react-icons/fi";
 
-const Navbar = () => {
+const ExtraNavbar = () => {
   const navLinks = [
     {
       path: "/products",
@@ -19,7 +19,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="flex items-center justify-between p-4 text-white">
+    <div className="hidden items-center justify-between p-4 md:flex">
       <Image src={logo} alt="logo" width={120} />
       <ul className="flex items-center  gap-x-8 pr-[100px]">
         {navLinks.map((link, key) => (
@@ -32,4 +32,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default ExtraNavbar;

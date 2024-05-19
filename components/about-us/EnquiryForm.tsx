@@ -14,7 +14,7 @@ const EnquiryForm = () => {
         className="rounded-md border border-gray-800 w-60 p-2  text-xs placeholder-gray-500"
       />
       <input
-        className="cursor-pointer rounded-md bg-[#FFC048] w-60 py-1  text-center"
+        className="cursor-pointer rounded-md bg-[#FFC048] w-60 py-1 text-white text-center"
         value="Submit"
       />
     </div>

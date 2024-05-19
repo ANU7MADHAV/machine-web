@@ -2,10 +2,7 @@ import { Button } from "@/components/ui/button";
 import { FaBars } from "react-icons/fa";
 import {
   Sheet,
-  SheetClose,
   SheetContent,
-  SheetDescription,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -16,7 +13,7 @@ import Link from "next/link";
 
 export function MobileNavbar() {
   return (
-    <main className="flex justify-between items-center px-3">
+    <main className="flex md:hidden justify-between items-center px-3">
       <div>
         <Image src={logo} alt="logo" className="w-[60px]" />
       </div>
@@ -34,9 +31,12 @@ export function MobileNavbar() {
             </SheetTitle>
           </SheetHeader>
           <div className="grid gap-4 my-4 py-4">
-            <h3 className="border px-3 py-2 rounded-md hover:scale-105">
-              Products
-            </h3>
+            <Link href="/products">
+              <h3 className="border px-3 py-2 rounded-md hover:scale-105">
+                Products
+              </h3>
+            </Link>
+
             <Link href="/about-us">
               <h3 className="border px-3 py-2 rounded-md hover:scale-105">
                 About us

@@ -4,7 +4,7 @@ import { IoCallOutline } from "react-icons/io5";
 
 const SecondSection = () => {
   return (
-    <div className="bg-[#FCFBF1] my-6 px-1 py-4">
+    <div className="bg-[#FCFBF1] my-6 px-4 py-4">
       <section>
         <h2 className="font-semibold text-center my-3 text-xl">Our Values</h2>
         <p className="font-serif text-sm my-3">

@@ -2,7 +2,7 @@ import EnquiryForm from "./EnquiryForm";
 
 const ThirdSection = () => {
   return (
-    <div className="flex flex-col">
+    <div className="grid grid-cols-1 md:grid-cols-2">
       <section className="text-center">
         <h3 className="font-semibold text-xl">Get in Touch With Us</h3>
         <p className="font-serif text-center text-sm my-3 ">

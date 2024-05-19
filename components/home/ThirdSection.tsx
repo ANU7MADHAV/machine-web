@@ -6,7 +6,7 @@ const ThirdSection = () => {
   return (
     <div className="flex h-screen flex-col justify-center gap-y-2 bg-[#F1EABA] pb-[20px] lg:gap-y-10 ">
       <div className="flex justify-center pt-4">
-        <h1 className="text-center text-lg font-semibold lg:text-3xl">
+        <h1 className="text-center my-6 text-lg font-semibold lg:text-3xl">
           Why Choose Phoenix Packaging Solutions?
         </h1>
       </div>
