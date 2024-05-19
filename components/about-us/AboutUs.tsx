@@ -1,11 +1,13 @@
 import FirstSection from "./FirstSection";
 import SecondSection from "./SecondSection";
+import ThirdSection from "./ThirdSection";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="px-4">
       <FirstSection />
       <SecondSection />
+      <ThirdSection />
     </div>
   );
 };

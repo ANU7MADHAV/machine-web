@@ -25,7 +25,7 @@ const ThirdSection = () => {
             </p>
           </section>
           <section className="mx-8">
-            <h3 className="-ml-11 flex items-center gap-x-3 text-lg font-medium">
+            <h3 className="-ml-11 md:-ml-[65px] flex items-center gap-x-3 text-lg font-medium">
               <span className="rounded-full bg-[#FFC048] p-[3px] text-2xl text-white lg:p-[5px]">
                 <IoShieldOutline />
               </span>

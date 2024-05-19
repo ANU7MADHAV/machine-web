@@ -1,9 +1,7 @@
-import React from "react";
-
 const EnquiryForm = () => {
   return (
-    <main className="h-100% mt-[50px] flex justify-center lg:mt-0 lg:h-[400px] lg:flex-row">
-      <div className="grid w-3/4 grid-cols-1 justify-center lg:grid-cols-2">
+    <main className="h-100% my-[50px] md:mt-[100px] flex justify-center lg:mt-0 lg:h-[400px] lg:flex-row">
+      <div className="grid w-3/4 md:my-[60px] grid-cols-1 justify-center lg:grid-cols-2">
         <div className="flex flex-col items-center justify-center bg-[#FCFBF1] ">
           <h1 className="my-6 text-base font-semibold lg:text-xl">
             We Are Here to Help

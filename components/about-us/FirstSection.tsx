@@ -4,7 +4,7 @@ import about2 from "@/public/about-us2.jpeg";
 
 const FirstSection = () => {
   return (
-    <div className="my-6 px-5">
+    <div className="my-6">
       <div>
         <section>
           <h2 className="font-semibold my-3 text-center text-xl">About us</h2>
