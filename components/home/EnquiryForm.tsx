@@ -1,8 +1,8 @@
 const EnquiryForm = () => {
   return (
-    <main className="h-100% my-[50px] md:mt-[100px] flex justify-center lg:mt-0 lg:h-[400px] lg:flex-row">
-      <div className="grid w-3/4 md:my-[60px] grid-cols-1 justify-center lg:grid-cols-2">
-        <div className="flex flex-col items-center justify-center bg-[#FCFBF1] ">
+    <main className="h-100% my-[90px] mb-[120px] flex justify-center lg:mt-0 lg:h-[400px]  lg:flex-row">
+      <div className="grid w-3/4  md:my-[60px] grid-cols-1 justify-center lg:grid-cols-2">
+        <div className="flex py-[40px] flex-col items-center justify-center bg-[#FCFBF1] ">
           <h1 className="my-6 text-base font-semibold lg:text-xl">
             We Are Here to Help
           </h1>
@@ -13,7 +13,7 @@ const EnquiryForm = () => {
             most suitable packaging machinery solutions.
           </p>
         </div>
-        <div className="flex flex-col items-center justify-center bg-[#F1EABA] px-4">
+        <div className="flex py-[40px] flex-col items-center justify-center bg-[#F1EABA] px-4">
           <h1 className="my-6 text-xl font-semibold">Enquiry Now</h1>
           <div className="flex flex-col gap-y-6 rounded-md border border-gray-800 p-6">
             <input

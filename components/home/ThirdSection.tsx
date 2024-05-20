@@ -4,7 +4,7 @@ import { IoCallOutline } from "react-icons/io5";
 
 const ThirdSection = () => {
   return (
-    <div className="flex h-screen flex-col justify-center gap-y-2 bg-[#F1EABA] pb-[20px] lg:gap-y-10 ">
+    <div className="flex h-screen flex-col justify-center gap-y-2 bg-[#F1EABA] py-[20px] lg:gap-y-10 ">
       <div className="flex justify-center pt-4">
         <h1 className="text-center my-6 text-lg font-semibold lg:text-3xl">
           Why Choose Phoenix Packaging Solutions?
@@ -25,7 +25,7 @@ const ThirdSection = () => {
             </p>
           </section>
           <section className="mx-8">
-            <h3 className="-ml-11 md:-ml-[65px] flex items-center gap-x-3 text-lg font-medium">
+            <h3 className="-ml-11 md:-ml-[50px] flex items-center gap-x-3 text-lg font-medium">
               <span className="rounded-full bg-[#FFC048] p-[3px] text-2xl text-white lg:p-[5px]">
                 <IoShieldOutline />
               </span>

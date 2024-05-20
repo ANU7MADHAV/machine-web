@@ -6,7 +6,7 @@ import { FiPhone } from "react-icons/fi";
 const ExtraNavbar = () => {
   const navLinks = [
     {
-      path: "/products",
+      path: "/#products",
       value: "Products",
     },
     {

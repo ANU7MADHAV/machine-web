@@ -43,7 +43,6 @@ const PackingTools = () => {
               alt="product images"
               className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300"
             />
-
             <h3 className="font-semibold">{item.name}</h3>
             <button className="bg-[#FFC048] text-white  px-2 py-1 rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#f7b439] duration-300">
               Enquiry now
