@@ -15,7 +15,7 @@ export function MobileNavbar() {
   return (
     <main className="flex md:hidden justify-between items-center px-3">
       <div>
-        <Image src={logo} alt="logo" className="w-[60px]" />
+        <Image src={logo} alt="logo" className="w-[90px] mt-3" />
       </div>
       <Sheet>
         <SheetTrigger asChild>

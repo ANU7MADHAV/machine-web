@@ -1,7 +1,12 @@
-import React from "react";
+import PackingTools from "@/components/products/PackingTools";
 
 const page = () => {
-  return <div>packing tools</div>;
+  return (
+    <div className="flex flex-col my-6 items-center">
+      <h1 className="mb-12 text-3xl font-semibold">Packing Tools</h1>
+      <PackingTools />
+    </div>
+  );
 };
 
 export default page;
