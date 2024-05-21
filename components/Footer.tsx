@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#0C0C0C] py-3 text-white text-center flex flex-col lg:flex-row lg:justify-between lg:text-left lg:px-10">
+    <div className="bg-[#0C0C0C] py-3 text-white text-center flex flex-col lg:flex-row lg:justify-between lg:text-left md:px-14">
       <section>
         <h3 className="font-semibold text-lg my-3">REACH US</h3>
         <h3 className="font-semibold text-base my-3">ADDRESS</h3>

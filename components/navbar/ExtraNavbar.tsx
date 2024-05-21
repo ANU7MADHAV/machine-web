@@ -20,7 +20,10 @@ const ExtraNavbar = () => {
   ];
   return (
     <div className="hidden items-center justify-between p-4 md:flex">
-      <Image src={logo} alt="logo" width={120} />
+      <Link href="/">
+        <Image src={logo} alt="logo" width={120} />
+      </Link>
+
       <ul className="flex items-center  gap-x-8 pr-[100px]">
         {navLinks.map((link, key) => (
           <Link key={key} href={link.path}>

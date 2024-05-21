@@ -20,7 +20,10 @@ const Navbar = () => {
   ];
   return (
     <div className="flex items-center justify-between p-4 text-white">
-      <Image src={logo} alt="logo" width={120} />
+      <Link href="/">
+        <Image src={logo} alt="logo" width={120} />
+      </Link>
+
       <ul className="flex items-center  gap-x-8 pr-[100px]">
         {navLinks.map((link, key) => (
           <Link key={key} href={link.path}>

@@ -5,9 +5,11 @@ import about2 from "@/public/about-us2.jpeg";
 const FirstSection = () => {
   return (
     <div className="my-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center">
-        <section>
-          <h2 className="font-semibold my-3 text-center text-xl">About us</h2>
+      <div className="md:flex justify-center md:px-8 px-4">
+        <section className="flex-1 px-6">
+          <h2 className="font-semibold my-3 text-center text-2xl lg:text-left">
+            About us
+          </h2>
           <p className="font-serif text-sm my-3">
             Welcome to Phoenix Packaging Solutions, your trusted partner in the
             world of packaging solutions. Situated at Door No: 13/183 A, Opp.
@@ -16,12 +18,13 @@ const FirstSection = () => {
             of modern businesses.
           </p>
         </section>
-        <Image src={about1} alt="about-us-1" />
+        <section className="flex-1 px-6">
+          <Image src={about1} alt="about-us-1" />
+        </section>
       </div>
-      <div className="md:grid grid-cols-2 my-3 items-center gap-x-3">
-        <Image src={about2} alt="about-us" className="md:block hidden" />
-        <section className="my-3">
-          <h2 className="font-semibold my-3 text-center text-xl">Our Story</h2>
+      <div className="md:flex flex-row-reverse md:px-8 px-4 my-3 md:my-6">
+        <section className="flex-1 px-6">
+          <h2 className="font-semibold text-left text-xl">Our Story</h2>
           <p className="font-serif text-sm my-3">
             Phoenix Packaging Solutions is the brainchild of Mr. Bhagyesh, a
             seasoned entrepreneur with a passion for delivering excellence in
@@ -31,7 +34,9 @@ const FirstSection = () => {
             and innovation.
           </p>
         </section>
-        <Image src={about2} alt="about-us" className="visible md:hidden" />
+        <section className="flex-1 px-6">
+          <Image src={about2} alt="about-us" className="visible" />
+        </section>
       </div>
     </div>
   );

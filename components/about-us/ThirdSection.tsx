@@ -2,8 +2,8 @@ import EnquiryForm from "./EnquiryForm";
 
 const ThirdSection = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 md:pl-12 items-center my-6 px-5 mt-12 ">
-      <section className="text-center">
+    <div className="flex flex-col md:flex-row justify-center md:pl-12 items-center my-6 md:my-12 md:px-14 px-5 mt-12 ">
+      <section className="text-center justify-center md:px-4 flex-1">
         <h3 className="font-semibold md:text-left text-xl">
           Get in Touch With Us
         </h3>
@@ -14,7 +14,7 @@ const ThirdSection = () => {
           cutting-edge packaging solutions.
         </p>
       </section>
-      <section>
+      <section className="flex-1">
         <EnquiryForm />
       </section>
     </div>

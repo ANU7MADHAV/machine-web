@@ -31,7 +31,7 @@ export function MobileNavbar() {
             </SheetTitle>
           </SheetHeader>
           <div className="grid gap-4 my-4 py-4">
-            <Link href="/products">
+            <Link href="/#products">
               <h3 className="border px-3 py-2 rounded-md hover:scale-105">
                 Products
               </h3>

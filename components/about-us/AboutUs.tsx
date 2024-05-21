@@ -4,7 +4,7 @@ import ThirdSection from "./ThirdSection";
 
 const AboutUs = () => {
   return (
-    <div className="px-4">
+    <div>
       <FirstSection />
       <SecondSection />
       <ThirdSection />
