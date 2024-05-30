@@ -7,16 +7,16 @@ const Footer = () => {
         <h3 className="font-semibold text-lg my-3">REACH US</h3>
         <h3 className="font-semibold text-base my-3">ADDRESS</h3>
         <section className="my-3 space-y-1 opacity-80">
-          <p>Door No:13/183 A, Opp. Muncipal</p>
-          <p>Buiding, Koorkenchery</p>
-          <p>Thrissur-680007</p>
+          <p>35/3879, padikkala building</p>
+          <p>near veterinary hospital,Kokkala</p>
+          <p>Thrissur-680021</p>
         </section>
       </section>
       <section>
         <h3 className="font-semibold text-lg my-3">CONTACT US</h3>
         <section className="my-3 space-y-1 opacity-80">
-          <p>Mob: +91 99468 11111</p>
-          <p>Tel: +91 487 2322120</p>
+          <p>Mob: +91 7736101202</p>
+          <p>Mob: +91 7012097852</p>
         </section>
 
         <h3 className="font-semibold text-lg my-3">EMAIL</h3>
