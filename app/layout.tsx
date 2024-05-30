@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "phoenix packaging solutions",
   description: "Machine website",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
